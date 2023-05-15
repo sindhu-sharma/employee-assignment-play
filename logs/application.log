@@ -1,0 +1,14 @@
+2023-05-15 23:34:16,135 [WARN] from play.api.Configuration in play-dev-mode-akka.actor.default-dispatcher-4 - application.conf @ file:/C:/Users/sindh/Downloads/play-samples-play-java-starter-example%20(2)/play-samples-play-java-starter-example/target/scala-2.13/classes/application.conf: 331: user is deprecated, use username instead
+2023-05-15 23:34:16,137 [INFO] from play.api.db.DefaultDBApi in play-dev-mode-akka.actor.default-dispatcher-4 - Database [default] initialized
+2023-05-15 23:34:16,149 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-4 - Creating Pool for datasource 'default'
+2023-05-15 23:34:16,166 [WARN] from com.zaxxer.hikari.util.DriverDataSource in play-dev-mode-akka.actor.default-dispatcher-4 - Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2023-05-15 23:34:16,203 [INFO] from play.api.db.HikariCPConnectionPool in play-dev-mode-akka.actor.default-dispatcher-4 - datasource [default] bound to JNDI as DefaultDS
+2023-05-15 23:34:16,298 [INFO] from application in play-dev-mode-akka.actor.default-dispatcher-4 - ApplicationTimer demo: Starting application at 2023-05-15T18:04:16.297Z
+2023-05-15 23:34:16,323 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-4 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+    filters.ExampleFilter
+
+2023-05-15 23:34:16,520 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-4 - Application started (Dev) (no global state)
